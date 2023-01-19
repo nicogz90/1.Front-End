@@ -1,0 +1,21 @@
+.ha-hide {
+	display: none;
+}
+
+.ha-show {
+	display: block;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin: 40px 0;
+}
+
+.header {
+	display: flex;
+	padding: 10px;
+	justify-content: flex-end;
+	background-color: aquamarine;
+}
+

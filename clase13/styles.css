@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* EJERCICIO 1 */
+#form {
+  width: 30%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: lightgray;
+}
+
+.form-title {
+  margin-bottom: 1em;
+}
+
+.block {
+  display: block;
+}
+
+.vertical-margin {
+  margin-top: 2em;
+}
+
+.input {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.valid {
+  background-color: lightgreen;
+  border: 1px solid green;
+}
+
+.not-valid {
+  background-color: lightcoral;
+  border: 1px solid red;
+}
+
+.button {
+  padding: 0.5em;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* EJERCICIO 2 */
+.lightblue-box {
+  background-color: lightblue;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.blue-box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.up {
+  top: 0;
+}
+.down {
+  bottom: 0;
+}

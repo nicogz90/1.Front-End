@@ -1,0 +1,30 @@
+* {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: blue;  
+    height: 100px;
+}
+
+header p, header h2 {
+    display: inline;
+}
+
+#sidebar {
+    background-color: orange;
+    width: 10%;
+    height: 500px;
+    line-height: 500px;
+    float: left;
+}
+
+#content {
+    background-color: green;
+    width: 90%;
+    height: 500px;
+    line-height: 500px;
+    margin-left: 10%;
+}

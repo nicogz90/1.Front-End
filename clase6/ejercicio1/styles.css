@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#logoExpedia {
+  height: 20px;
+}
+
+nav {
+  background-color: #ffff00;
+  height: 45px;
+}
+
+#fondoBuscador {
+  background-image: url(./images/fondoBuscador.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+#button-addon2 {
+  background-color: #ffff00;
+  color: black;
+}
+
+#button-addon2:hover,
+a:hover {
+  background-color: #ffd600;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card-footer {
+  background-color: white;
+  border-color: white;
+}
+
+.card-footer a {
+  background-color: #ffff00;
+  color: black;
+}

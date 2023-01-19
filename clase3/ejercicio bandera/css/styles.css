@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#stripe-top, #stripe-center, #stripe-bottom {
+    width: 600px;
+    height: 100px;
+}
+
+#stripe-top-left {
+    float: left;
+    background-color: red;
+    width: 50%;
+    height: 100px;
+}
+
+#stripe-top-right {
+    float: right;
+    background-color: green;
+    width: 50%;
+    height: 100px;
+}
+
+#stripe-center {
+    background-color: orange;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 3em;
+}
+
+#stripe-bottom-left {
+    float: left;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+#stripe-bottom-right {
+    float: right;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+#stripe-bottom-center {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+}

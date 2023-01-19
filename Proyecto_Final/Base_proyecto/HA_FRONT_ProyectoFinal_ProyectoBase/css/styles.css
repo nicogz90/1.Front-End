@@ -1,0 +1,195 @@
+/* Mi código CSS */
+
+body {
+  padding-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/*****************************************************************
+
+    HEADER
+
+/*****************************************************************/
+
+#header {
+  background-color: #222;
+  border-bottom: 4px solid #ff8f00;
+}
+
+#header-logo {
+  width: auto;
+  height: 20px;
+}
+
+/*****************************************************************
+
+    HOME
+
+/*****************************************************************/
+
+#home {
+  flex: 1;
+}
+
+#home-intro {
+  border-bottom: 4px solid #ff8f00;
+  height: 36vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../img/cars_home/audi_1.jpg");
+  margin-bottom: 30px;
+}
+
+.carousel-item img {
+  border-bottom: 4px solid #ff8f00;
+  height: 75vh;
+  object-fit: cover;
+}
+
+#home h1 span {
+  font-weight: 300;
+}
+
+#home .card h4 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+#home hr {
+  margin: 1.9rem 0 2.5rem;
+}
+
+@media (max-width: 767px) {
+  /* #home-intro {
+    height: 30vh;
+  } */
+
+  .carousel-item img {
+    height: 30vh;
+  }
+
+  #home h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/*****************************************************************
+
+    FOOTER
+
+/*****************************************************************/
+
+#footer {
+  border-top: 4px solid #ff8f00;
+  background-color: #222;
+  margin-top: 40px;
+  color: #eeeeee;
+  padding: 80px 0;
+  font-size: 1rem;
+}
+
+#footer-logo {
+  width: auto;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+#footer ul li {
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+#footer ul li a,
+#footer ul li a:visited {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+/*****************************************************************
+
+    SALES
+
+/*****************************************************************/
+
+#sales {
+  padding: 40px 0;
+}
+
+#sales h1 {
+  margin: 0;
+}
+
+.car {
+  margin: 0 0 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+#filter-button {
+  background-color: #ff8f00;
+  border: #ff8f00;
+}
+#filter-button:hover {
+  filter: brightness(120%);
+}
+
+#change-currency-button {
+  color: black;
+  border-color: lightgray;
+  margin-bottom: 20px;
+}
+
+.car-image {
+  max-width: 100%;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#sales .car-info {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.rating {
+  color: #ffc107;
+  display: inline-block;
+}
+
+@media (max-width: 1199px) {
+  #sales .car-info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 991px) {
+  #sales .car-footer .btn span {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #sales hr {
+    display: none;
+  }
+
+  #sales .car .btn {
+    font-size: 0.8rem;
+  }
+}

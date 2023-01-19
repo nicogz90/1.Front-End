@@ -1,0 +1,43 @@
+/* selector asterisco, para aplicar a todo */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#caja1 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  color: white;
+  padding: 20px;
+
+  position: relative; /* respecto a su ubicacion original. para los demas elementos, el espacio original de este elemento va a seguir ocupado por mas que lo corra */
+  left: 20px;
+  top: 20px;
+}
+
+#caja2 {
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  position: absolute; /* respecto a la esquina superior-izquierda */
+  left: 20px;
+}
+
+#caja3 {
+  height: 250px;
+  width: 250px;
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
+
+span {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+} /* para fijar a esquina inf-der */

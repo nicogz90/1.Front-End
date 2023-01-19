@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Clase 6</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="https://ha.dev/img/ha_logo_horizontal_white.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Aplicar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FORM -->
+    <form>
+        <!-- LABEL / INPUT -->
+        <div class="form-group">
+            <label for="input-name">Nombre</label>
+            <input type="text" id="input-name" name="nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="input-password">Password</label>
+            <input type="password" id="input-password" name="password">
+        </div>
+
+        <div class="form-group">
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" name="email">
+        </div>
+
+        <br>
+
+        <!-- SELECT / OPTION -->
+        <select name="options" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+
+        <br><br>
+
+        <!-- CHECKBOX -->
+        <input type="checkbox" name="" id="">
+        <label for="input-checkbox">Está cursando Front-End</label>
+
+        <br><br>
+
+        <!-- RADIO -->
+        <input type="radio" name="respuesta" id="">
+        <label for="">Si</label>
+
+        <input type="radio" name="respuesta" id="">
+        <label for="">No</label>
+
+        <input type="radio" name="respuesta" id="">
+        <label for="">Quizás</label>
+
+        <br><br>
+
+        <!-- BUTTON -->
+        <button type="submit">Enviar información</button> <!-- solo funciona dentro de un formulario -->
+        <!-- otra forma: <input type="submit" value="Enviar información"> -->
+    </form>
+
+</body>
+
+</html>

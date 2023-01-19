@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+main {
+    max-width: 1000px;
+}
+
+/* =================
+- HEADER
+================= */
+
+header {}
+header img {}
+header nav {}
+header nav ul {}
+header nav ul li {}
+header nav ul li a {}
+
+/* =================
+- SECTION: POST
+================= */
+
+section#post {}
+section #post article {}
+section #post article img {}
+section #post article h1 {}
+section #post article p {}
+
+/* =================
+- SECTION: COMMENTS
+================= */
+
+section#comments {}
+section#comments h2 {}
+section#comments article {}
+section#comments article img {}
+section#comments article h3 {}
+section#comments article p {}
+
+/* =================
+- FORMULARIO
+================= */
+
+form {}
+form img {}
+form textarea {}
+form button[type="submit"] {}

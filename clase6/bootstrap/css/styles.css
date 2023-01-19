@@ -1,0 +1,5 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* sino podría ubicar el elemento que quiero modificar y agregarle alguna propiedad, para no sobreescribir las del Bootstrap, lo cual podría llegar a "romperlo" */

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#logo {
+  width: 164px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  filter: contrast(50%);
+}

@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(104, 103, 103);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    margin: 0px 5px;
+}
+
+h3 {
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
